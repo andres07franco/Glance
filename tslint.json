@@ -1,4 +1,7 @@
 {
+  "compilerOptions": {
+    "experimentalDecorators": true
+  },
   "rules": {
     "no-duplicate-variable": true,
     "no-unused-variable": [
