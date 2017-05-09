@@ -23,7 +23,7 @@ export class LoginPage {
      * Realiza el login de facebook
      */
     loginFb(event) {
-        
+         console.log('Logged into Facebo ok!');
         //Si estamso en el browser, no inica sesion
         if (this.platform.is('cordova') ){
              this.navCtrl.push(TabsPage, { user: null });
